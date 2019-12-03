@@ -1,0 +1,1962 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input3</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="137" />
+              <Fields>
+                <Field name="RecordID" />
+                <Field name="Field1" />
+                <Field name="Mod" />
+                <Field name="Iteration" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>0</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>0</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>0</c>
+                  <c>2</c>
+                  <c>0</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>0</c>
+                  <c>3</c>
+                  <c>0</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>3</c>
+                  <c>4</c>
+                  <c>0</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>1</c>
+                  <c>2</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>2</c>
+                  <c>3</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>3</c>
+                  <c>4</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>3</c>
+                  <c>2</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>4</c>
+                  <c>3</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>3</c>
+                  <c>4</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>13</c>
+                  <c>5</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>14</c>
+                  <c>0</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>15</c>
+                  <c>3</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>16</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>17</c>
+                  <c>1</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>18</c>
+                  <c>10</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>19</c>
+                  <c>19</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>20</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>21</c>
+                  <c>9</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>22</c>
+                  <c>19</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>23</c>
+                  <c>23</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>24</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>25</c>
+                  <c>9</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>26</c>
+                  <c>23</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>27</c>
+                  <c>27</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>28</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>29</c>
+                  <c>27</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>30</c>
+                  <c>9</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>31</c>
+                  <c>31</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>32</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>33</c>
+                  <c>31</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>34</c>
+                  <c>5</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>35</c>
+                  <c>35</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>36</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>37</c>
+                  <c>35</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>38</c>
+                  <c>9</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>39</c>
+                  <c>39</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>40</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>41</c>
+                  <c>39</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>42</c>
+                  <c>10</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>43</c>
+                  <c>43</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>44</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>45</c>
+                  <c>43</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>46</c>
+                  <c>13</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>47</c>
+                  <c>47</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>48</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>49</c>
+                  <c>47</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>50</c>
+                  <c>6</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>51</c>
+                  <c>51</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>52</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>53</c>
+                  <c>51</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>54</c>
+                  <c>10</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>55</c>
+                  <c>55</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>56</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>57</c>
+                  <c>9</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>58</c>
+                  <c>55</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>59</c>
+                  <c>59</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>60</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>61</c>
+                  <c>6</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>62</c>
+                  <c>59</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>63</c>
+                  <c>63</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>64</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>65</c>
+                  <c>63</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>66</c>
+                  <c>6</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>67</c>
+                  <c>67</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>68</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>69</c>
+                  <c>67</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>70</c>
+                  <c>10</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>71</c>
+                  <c>71</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>72</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>73</c>
+                  <c>71</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>74</c>
+                  <c>10</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>75</c>
+                  <c>75</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>76</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>77</c>
+                  <c>9</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>78</c>
+                  <c>75</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>79</c>
+                  <c>79</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>80</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>81</c>
+                  <c>5</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>82</c>
+                  <c>79</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>83</c>
+                  <c>83</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>84</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>85</c>
+                  <c>9</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>86</c>
+                  <c>83</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>87</c>
+                  <c>87</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>88</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>89</c>
+                  <c>87</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>90</c>
+                  <c>9</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>91</c>
+                  <c>91</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>92</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>93</c>
+                  <c>91</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>94</c>
+                  <c>13</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>95</c>
+                  <c>95</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>96</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>97</c>
+                  <c>95</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>98</c>
+                  <c>9</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>99</c>
+                  <c>99</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>100</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>101</c>
+                  <c>99</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>102</c>
+                  <c>6</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>103</c>
+                  <c>103</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>104</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>105</c>
+                  <c>103</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>106</c>
+                  <c>6</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>107</c>
+                  <c>107</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>108</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>109</c>
+                  <c>107</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>110</c>
+                  <c>5</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>111</c>
+                  <c>111</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>112</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>113</c>
+                  <c>13</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>114</c>
+                  <c>111</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>115</c>
+                  <c>115</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>116</c>
+                  <c>2</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>117</c>
+                  <c>115</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>118</c>
+                  <c>6</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>119</c>
+                  <c>119</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>120</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>121</c>
+                  <c>119</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>122</c>
+                  <c>5</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>123</c>
+                  <c>123</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>124</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>125</c>
+                  <c>2</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>126</c>
+                  <c>123</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>127</c>
+                  <c>127</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>128</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>129</c>
+                  <c>6</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>130</c>
+                  <c>127</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>131</c>
+                  <c>0</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>132</c>
+                  <c>99</c>
+                  <c>1</c>
+                  <c />
+                </r>
+                <r>
+                  <c>133</c>
+                  <c>2</c>
+                  <c>2</c>
+                  <c />
+                </r>
+                <r>
+                  <c>134</c>
+                  <c>14</c>
+                  <c>3</c>
+                  <c />
+                </r>
+                <r>
+                  <c>135</c>
+                  <c>0</c>
+                  <c>4</c>
+                  <c />
+                </r>
+                <r>
+                  <c>136</c>
+                  <c>0</c>
+                  <c>1</c>
+                  <c />
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Input (1)</Name>
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Field1" source="TextInput:" type="Byte" />
+            <Field name="Mod" source="TextInput:" type="Byte" />
+            <Field name="Iteration" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="990" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Solution</Name>
+          <Abbrev>O</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="66" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>IterationOutput</Name>
+          <Abbrev>O</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="390" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Iteration] = [Engine.IterationNumber]</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>RecordID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-02 08:13:25</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2019-12-02 08:13:25</StartDate>
+              <EndDate>2019-12-02 08:13:25</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Iteration] = [Engine.IterationNumber]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Double" />
+            <Field name="Field1" source="TextInput:" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Double" />
+            <Field name="Field1" source="TextInput:" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="762" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_1" selected="False" input="Target_" />
+                <SelectField field="Target_2" selected="False" input="Target_" />
+                <SelectField field="Target_3" selected="False" input="Target_" />
+                <SelectField field="Target_4" selected="False" input="Target_" />
+                <SelectField field="Source_RecordID" selected="True" rename="Source_RecordID" input="Source_" />
+                <SelectField field="Source_Field1" selected="True" rename="Source_Field1" input="Source_" />
+                <SelectField field="Source_Iteration" selected="True" rename="Source_Iteration" input="Source_" />
+                <SelectField field="Target_Mod" selected="False" input="Target_" />
+                <SelectField field="Target_First Position" selected="False" input="Target_" />
+                <SelectField field="Source_1" selected="False" input="Source_" />
+                <SelectField field="Source_2" selected="False" input="Source_" />
+                <SelectField field="Source_3" selected="False" input="Source_" />
+                <SelectField field="Source_4" selected="False" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="Source_RecordID" source="TextInput:" type="Double" />
+            <Field name="Source_Field1" source="TextInput:" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Source_Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="930" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Value" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Iteration" selected="True" rename="Right_Iteration" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Header:Mod:1:Sum:" type="Double" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" source="CrossTab: (Multiple Sources)" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Value" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Header:Mod:1:Sum:" type="Double" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" source="CrossTab: (Multiple Sources)" type="Double" />
+            <Field name="RecordID" source="TextInput:" type="Double" />
+            <Field name="Field1" source="TextInput:" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Right_Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Value" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Double" />
+            <Field name="Field1" source="TextInput:" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="RecordID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" type="Double" size="8" />
+            <SelectField field="Field1" selected="True" type="Double" size="8" />
+            <SelectField field="Mod" selected="True" type="Double" size="8" />
+            <SelectField field="Iteration" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Double" />
+            <Field name="Field1" source="TextInput:" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="546" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Iteration" />
+          </GroupFields>
+          <HeaderField field="Mod" />
+          <DataField field="Field1" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Header:Mod:1:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Mod:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Mod:3:Sum:" type="Double" />
+            <Field name="4" source="CrossTab:Header:Mod:4:Sum:" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Iteration" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="738" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Iteration" />
+            <Field field="1" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Iteration" selected="False" />
+            <Field field="1" selected="False" />
+            <Field field="2" selected="True" />
+            <Field field="3" selected="True" />
+            <Field field="4" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Header:Mod:1:Sum:" type="Double" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" source="CrossTab: (Multiple Sources)" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Iteration" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="1026" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Iteration" />
+            <Field field="1" />
+          </GroupFields>
+          <HeaderField field="Name" />
+          <DataField field="Field1" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Name:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Name:3:Sum:" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Iteration" order="Asc" />
+            <Field field="1" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1122" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [1] = 1 &#xA;THEN [2] + [3]&#xA;ELSE [2] * [3]&#xA;ENDIF" field="Output" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Output = IF [1] = 1 
+THEN [2] + [3]
+ELSE [2] * [3]
+ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Name:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Name:3:Sum:" type="Double" />
+            <Field name="Output" source="Formula: IF [1] = 1 &#xA;THEN [2] + [3]&#xA;ELSE [2] * [3]&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Iteration" order="Asc" />
+            <Field field="1" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1506" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_RecordID" selected="True" rename="Right_RecordID" input="Right_" />
+                <SelectField field="Right_Iteration" selected="True" rename="Right_Iteration" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="RecordID" source="CrossTab: (Multiple Sources)" type="Double" />
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Name:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Name:3:Sum:" type="Double" />
+            <Field name="Output" source="Formula: IF [1] = 1 &#xA;THEN [2] + [3]&#xA;ELSE [2] * [3]&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="RecordID" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="RecordID" source="CrossTab: (Multiple Sources)" type="Double" />
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Name:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Name:3:Sum:" type="Double" />
+            <Field name="Output" source="Formula: IF [1] = 1 &#xA;THEN [2] + [3]&#xA;ELSE [2] * [3]&#xA;ENDIF" type="Double" />
+            <Field name="Right_RecordID" source="TextInput:" type="Double" />
+            <Field name="Field1" source="TextInput:" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Right_Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Double" />
+            <Field name="Field1" source="TextInput:" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="RecordID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1602" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="(Multiple Sources)" type="Double" />
+            <Field name="Iteration" source="(Multiple Sources)" type="Double" />
+            <Field name="1" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Name:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Name:3:Sum:" type="Double" />
+            <Field name="Output" source="Formula: IF [1] = 1 &#xA;THEN [2] + [3]&#xA;ELSE [2] * [3]&#xA;ENDIF" type="Double" />
+            <Field name="Right_RecordID" source="TextInput:" type="Double" />
+            <Field name="Field1" source="TextInput:" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Right_Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1698" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ISNULL([Output]) THEN [Field1]&#xA;ELSE [Output] &#xA;ENDIF" field="Field1" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Field1 = IF ISNULL([Output]) THEN [Field1]
+ELSE [Output] 
+ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="(Multiple Sources)" type="Double" />
+            <Field name="Iteration" source="(Multiple Sources)" type="Double" />
+            <Field name="1" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Name:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Name:3:Sum:" type="Double" />
+            <Field name="Output" source="Formula: IF [1] = 1 &#xA;THEN [2] + [3]&#xA;ELSE [2] * [3]&#xA;ENDIF" type="Double" />
+            <Field name="Right_RecordID" source="TextInput:" type="Double" />
+            <Field name="Field1" source="Formula: IF ISNULL([Output]) THEN [Field1]&#xA;ELSE [Output] &#xA;ENDIF" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Right_Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1794" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Output" selected="False" />
+            <SelectField field="Right_Iteration" selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Value" selected="False" />
+            <SelectField field="First Position" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="(Multiple Sources)" type="Double" />
+            <Field name="Iteration" source="(Multiple Sources)" type="Double" />
+            <Field name="1" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Name:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Name:3:Sum:" type="Double" />
+            <Field name="Right_RecordID" source="TextInput:" type="Double" />
+            <Field name="Field1" source="Formula: IF ISNULL([Output]) THEN [Field1]&#xA;ELSE [Output] &#xA;ENDIF" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="642" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[1] = 99</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>1</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-02 09:01:06</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>99</Operand>
+              <StartDate>2019-12-02 09:01:06</StartDate>
+              <EndDate>2019-12-02 09:01:06</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[1] = 99</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Header:Mod:1:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Mod:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Mod:3:Sum:" type="Double" />
+            <Field name="4" source="CrossTab:Header:Mod:4:Sum:" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Iteration" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Header:Mod:1:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Mod:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Mod:3:Sum:" type="Double" />
+            <Field name="4" source="CrossTab:Header:Mod:4:Sum:" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Iteration" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="858" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Source_RecordID" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source_RecordID - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="Source_RecordID" source="TextInput:" type="Double" />
+            <Field name="Source_Field1" source="TextInput:" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+            <Field name="Source_Iteration" source="TextInput:" type="Double" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="Source_RecordID" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="834" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Name] != "4"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>Name</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-02 09:49:03</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>4</Operand>
+              <StartDate>2019-12-02 09:49:03</StartDate>
+              <EndDate>2019-12-02 09:49:03</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Name] != "4"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Header:Mod:1:Sum:" type="Double" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" source="CrossTab: (Multiple Sources)" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Iteration" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Header:Mod:1:Sum:" type="Double" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" source="CrossTab: (Multiple Sources)" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Iteration" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1122" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Iteration" selected="False" />
+            <SelectField field="1" selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Value" selected="True" rename="RecordID" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="CrossTab: (Multiple Sources)" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1254" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="CrossTab: (Multiple Sources)" type="Double" />
+            <Field name="Iteration" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="1" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="2" source="CrossTab:Header:Name:2:Sum:" type="Double" />
+            <Field name="3" source="CrossTab:Header:Name:3:Sum:" type="Double" />
+            <Field name="Output" source="Formula: IF [1] = 1 &#xA;THEN [2] + [3]&#xA;ELSE [2] * [3]&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings>
+        <Position x="1890" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output9">
+          <RecordInfo>
+            <Field name="Count" source="(Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1986" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Count] &gt; 0</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>Count</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-02 10:20:27</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2019-12-02 10:20:27</StartDate>
+              <EndDate>2019-12-02 10:20:27</EndDate>
+              <Operand>0</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Count] &gt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Count" source="(Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Count" source="(Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="2082" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_Count" selected="False" input="Target_" />
+                <SelectField field="Source_1" selected="False" input="Source_" />
+                <SelectField field="Source_2" selected="False" input="Source_" />
+                <SelectField field="Source_3" selected="False" input="Source_" />
+                <SelectField field="Source_Right_RecordID" selected="False" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="(Multiple Sources)" type="Double" />
+            <Field name="Iteration" source="(Multiple Sources)" type="Double" />
+            <Field name="Field1" source="Formula: IF ISNULL([Output]) THEN [Field1]&#xA;ELSE [Output] &#xA;ENDIF" type="Double" />
+            <Field name="Mod" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="True" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Join" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="40" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="True" />
+      <Destination ToolID="40" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="38" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="True" />
+      <Destination ToolID="38" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="48" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="48" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="75" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="75" Connection="Targets" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="48" Connection="Join" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="48" Connection="Right" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="76" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="78" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="True" />
+      <Destination ToolID="78" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="False" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="False" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output9" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (11)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (18)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Day2-1MacroA</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (2)</Name>
+          <ToolId value="2" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (3)</Description>
+              <Name>Macro Input (3)</Name>
+              <ToolId value="3" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (11)</Description>
+              <Name>Macro Output (11)</Name>
+              <ToolId value="11" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (18)</Description>
+              <Name>Macro Output (18)</Name>
+              <ToolId value="18" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <IterativeMacro>
+        <Input>Input3</Input>
+        <Output>IterationOutput</Output>
+        <IterationLimit value="36" />
+        <LimitBehavior>Ignore</LimitBehavior>
+        <OutputMode>AutoByName</OutputMode>
+      </IterativeMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="3" Selected="True" />
+        <Tool ToolId="11" Selected="True" />
+        <Tool ToolId="18" Selected="True" />
+        <Tool ToolId="76" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
