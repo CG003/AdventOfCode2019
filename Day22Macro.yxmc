@@ -1,0 +1,1230 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="570" y="414" width="420" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Deal into new stack</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="570" y="570" width="420" height="276" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Cut deck</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="570" y="858" width="420" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Deal with increment</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="354" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[ActionNumber]-1 = [Engine.IterationNumber]</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-22 17:09:02</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2019-12-22 17:09:02</StartDate>
+              <EndDate>2019-12-22 17:09:02</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[ActionNumber]-1 = [Engine.IterationNumber]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="462" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="594" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Contains([Action],"deal with increment")</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>Action</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-22 17:10:51</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>deal with increment</Operand>
+              <StartDate>2019-12-22 17:10:51</StartDate>
+              <EndDate>2019-12-22 17:10:51</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Filter for shuffle action</AnnotationText>
+          <DefaultAnnotationText>Contains([Action],"deal with increment")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="750" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>RecordID</UpdateField_Name>
+          <CreateField_Name>CardDealtPosition</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF [RecordID] = 0 THEN 0
+ELSEIF ([Row-1:CardDealtPosition] + [Number]) &lt;= ([NumberRecords] - 1)
+THEN [Row-1:CardDealtPosition] + [Number]
+ELSE ([Row-1:CardDealtPosition] + [Number]) - ([NumberRecords])
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Shuffle Logic</AnnotationText>
+          <DefaultAnnotationText>IF [RecordID] = 0 THEN 0
+ELSEIF ([Row-1:CardDealtPosition] + ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+            <Field description="Formula: IF [RecordID] = 0 THEN 0&#xA;ELSEIF ([Row-1:CardDealtPosition] + [Number]) &lt;= ([NumberRecords] - 1)&#xA;THEN [Row-1:CardDealtPosition] + [Number]&#xA;ELSE ([Row-1:CardDealtPosition] + [Number]) - ([NumberRecords])&#xA;ENDIF" name="CardDealtPosition" source="Formula: IF [RecordID] = 0 THEN 0&#xA;ELSEIF ([Row-1:CardDealtPosition] + [Number]) &lt;= ([NumberRecords] - 1)&#xA;THEN [Row-1:CardDealtPosition] + [Number]&#xA;ELSE ([Row-1:CardDealtPosition] + [Number]) - ([NumberRecords])&#xA;ENDIF" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="210" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input5</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\898450\Documents\Projects\BRS digital\Advent of Code 2019\Day22Actions.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Input Data (4)</Name>
+          <AnnotationText>Day22Actions.yxdb</AnnotationText>
+          <DefaultAnnotationText>Day22Actions.yxdb</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="882" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CardDealtPosition" selected="True" rename="RecordID" />
+            <SelectField field="RecordID" selected="False" />
+            <SelectField field="Card" selected="True" />
+            <SelectField field="ActionNumber" selected="False" />
+            <SelectField field="Action" selected="True" />
+            <SelectField field="Number" selected="False" />
+            <SelectField field="NumberRecords" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Rename Fields</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="Formula: IF [RecordID] = 0 THEN 0&#xA;ELSEIF ([Row-1:CardDealtPosition] + [Number]) &lt;= ([NumberRecords] - 1)&#xA;THEN [Row-1:CardDealtPosition] + [Number]&#xA;ELSE ([Row-1:CardDealtPosition] + [Number]) - ([NumberRecords])&#xA;ENDIF" name="RecordID" source="Formula: IF [RecordID] = 0 THEN 0&#xA;ELSEIF ([Row-1:CardDealtPosition] + [Number]) &lt;= ([NumberRecords] - 1)&#xA;THEN [Row-1:CardDealtPosition] + [Number]&#xA;ELSE ([Row-1:CardDealtPosition] + [Number]) - ([NumberRecords])&#xA;ENDIF" type="Int32" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="210" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>IterationOutput</Name>
+          <Abbrev>i</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1314" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Solution</Name>
+          <Abbrev>S</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="594" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Contains([Action],"cut")
+AND
+[Number] &lt; 0</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>Action</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-22 17:27:34</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>cut</Operand>
+              <StartDate>2019-12-22 17:27:34</StartDate>
+              <EndDate>2019-12-22 17:27:34</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Negative Cut</AnnotationText>
+          <DefaultAnnotationText>Contains([Action],"cut")
+AND
+[Number] &lt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="750" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>RecordID</UpdateField_Name>
+          <CreateField_Name>DealtPos</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF [RecordID] = (([NumberRecords]) + [Number])
+THEN 0
+ELSEIF [RecordID] = 0
+THEN -[Number]
+ELSE [Row-1:DealtPos] + 1
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText />
+          <DefaultAnnotationText>IF [RecordID] = (([NumberRecords]) + [Number])
+THEN 0
+ELSEIF ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+            <Field description="Formula: IF [RecordID] = (([NumberRecords]) + [Number])&#xA;THEN 0&#xA;ELSEIF [RecordID] = 0&#xA;THEN -[Number]&#xA;ELSE [Row-1:DealtPos] + 1&#xA;ENDIF" name="DealtPos" source="Formula: IF [RecordID] = (([NumberRecords]) + [Number])&#xA;THEN 0&#xA;ELSEIF [RecordID] = 0&#xA;THEN -[Number]&#xA;ELSE [Row-1:DealtPos] + 1&#xA;ENDIF" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="882" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DealtPos" selected="True" rename="RecordID" />
+            <SelectField field="Card" selected="True" />
+            <SelectField field="Number" selected="False" />
+            <SelectField field="RecordID" selected="False" />
+            <SelectField field="ActionNumber" selected="False" />
+            <SelectField field="Action" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="Formula: IF [RecordID] = (([NumberRecords]) + [Number])&#xA;THEN 0&#xA;ELSEIF [RecordID] = 0&#xA;THEN -[Number]&#xA;ELSE [Row-1:DealtPos] + 1&#xA;ENDIF" name="RecordID" source="Formula: IF [RecordID] = (([NumberRecords]) + [Number])&#xA;THEN 0&#xA;ELSEIF [RecordID] = 0&#xA;THEN -[Number]&#xA;ELSE [Row-1:DealtPos] + 1&#xA;ENDIF" type="Int32" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1026" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1110" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RecordID - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="594" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Contains([Action],"cut")
+AND
+[Number] &gt;= 0</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>Action</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-22 17:27:34</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>cut</Operand>
+              <StartDate>2019-12-22 17:27:34</StartDate>
+              <EndDate>2019-12-22 17:27:34</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Positive Cut</AnnotationText>
+          <DefaultAnnotationText>Contains([Action],"cut")
+AND
+[Number] &gt;= 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="750" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>RecordID</UpdateField_Name>
+          <CreateField_Name>DealtPos</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF [RecordID] = ([Number])
+THEN 0
+ELSEIF [RecordID] = 0
+THEN ([NumberRecords] - 1)-[Number]+1
+ELSE [Row-1:DealtPos] + 1
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Shuffle Logic</AnnotationText>
+          <DefaultAnnotationText>IF [RecordID] = ([Number])
+THEN 0
+ELSEIF [RecordID] = 0
+THEN ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+            <Field description="Formula: IF [RecordID] = ([Number])&#xA;THEN 0&#xA;ELSEIF [RecordID] = 0&#xA;THEN ([NumberRecords] - 1)-[Number]+1&#xA;ELSE [Row-1:DealtPos] + 1&#xA;ENDIF" name="DealtPos" source="Formula: IF [RecordID] = ([Number])&#xA;THEN 0&#xA;ELSEIF [RecordID] = 0&#xA;THEN ([NumberRecords] - 1)-[Number]+1&#xA;ELSE [Row-1:DealtPos] + 1&#xA;ENDIF" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="882" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DealtPos" selected="True" rename="RecordID" />
+            <SelectField field="Card" selected="True" />
+            <SelectField field="Number" selected="False" />
+            <SelectField field="RecordID" selected="False" />
+            <SelectField field="ActionNumber" selected="False" />
+            <SelectField field="Action" selected="True" />
+            <SelectField field="NumberRecords" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="Formula: IF [RecordID] = ([Number])&#xA;THEN 0&#xA;ELSEIF [RecordID] = 0&#xA;THEN ([NumberRecords] - 1)-[Number]+1&#xA;ELSE [Row-1:DealtPos] + 1&#xA;ENDIF" name="RecordID" source="Formula: IF [RecordID] = ([Number])&#xA;THEN 0&#xA;ELSEIF [RecordID] = 0&#xA;THEN ([NumberRecords] - 1)-[Number]+1&#xA;ELSE [Row-1:DealtPos] + 1&#xA;ENDIF" type="Int32" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="594" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Action] = "deal into new stack"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Action</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-22 18:05:52</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>deal into new stack</Operand>
+              <StartDate>2019-12-22 18:05:52</StartDate>
+              <EndDate>2019-12-22 18:05:52</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Action] = "deal into new stack"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="750" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="abs([RecordID] - ([NumberRecords] - 1))" field="RecordID" size="1" type="Byte" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Shuffle logic</AnnotationText>
+          <DefaultAnnotationText><![CDATA[RecordID = abs([RecordID] - ([NumberRecords] - 1))
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="Formula: abs([RecordID] - ([NumberRecords] - 1))" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="ActionNumber" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field description="RegEx: Parsed from Field1" name="Number" source="RegEx: Parsed from Field1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="882" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ActionNumber" selected="False" />
+            <SelectField field="Number" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="Formula: abs([RecordID] - ([NumberRecords] - 1))" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1206" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Engine.IterationNumber]+1" field="Iteration" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Iteration = [Engine.IterationNumber]+1
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="Action" size="22" source="TextInput:" type="V_String" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+            <Field name="Iteration" source="Formula: [Engine.IterationNumber]+1" type="Int16" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1206" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Action" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="210" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>IterationInput</Name>
+          <Abbrev>i</Abbrev>
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="RecordID" />
+                <Field name="Card" />
+                <Field name="NumberRecords" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>2</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>3</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>4</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>5</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>6</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>7</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>8</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>9</c>
+                  <c>10</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Input (33)</Name>
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="TextInput:" type="Byte" />
+            <Field name="Card" source="TextInput:" type="Byte" />
+            <Field name="NumberRecords" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="90" y="126" width="540" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Advent of Code 2019
+Day 16 Macro</Text>
+          <Font name="Arial" size="25.81132" style="1" />
+          <TextColor name="White" />
+          <FillColor name="Black" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="426" y="138" width="180" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="426" y="234" width="192" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>ChrisDataBlog.com</Text>
+          <Font name="Arial" size="12.22642" style="0" />
+          <TextColor name="White" />
+          <FillColor name="Black" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="7" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="7" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="True" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="True" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (13)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (15)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (34)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Day22Macro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (2)</Name>
+          <ToolId value="2" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (5)</Description>
+              <Name>Macro Input (5)</Name>
+              <ToolId value="5" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (13)</Description>
+              <Name>Macro Output (13)</Name>
+              <ToolId value="13" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (15)</Description>
+              <Name>Macro Output (15)</Name>
+              <ToolId value="15" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (34)</Description>
+              <Name>Macro Input (34)</Name>
+              <ToolId value="34" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <IterativeMacro>
+        <Input>IterationInput</Input>
+        <Output>IterationOutput</Output>
+        <IterationLimit value="100" />
+        <LimitBehavior>Warn</LimitBehavior>
+        <OutputMode>AutoByName</OutputMode>
+      </IterativeMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="34" Selected="True" />
+        <Tool ToolId="15" Selected="True" />
+        <Tool ToolId="13" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

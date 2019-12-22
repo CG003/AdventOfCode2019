@@ -1,0 +1,741 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="102" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="100" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>deal with increment 55</c>
+            </r>
+            <r>
+              <c>cut -6791</c>
+            </r>
+            <r>
+              <c>deal with increment 9</c>
+            </r>
+            <r>
+              <c>cut -5412</c>
+            </r>
+            <r>
+              <c>deal with increment 21</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>deal with increment 72</c>
+            </r>
+            <r>
+              <c>cut -362</c>
+            </r>
+            <r>
+              <c>deal with increment 24</c>
+            </r>
+            <r>
+              <c>cut -5369</c>
+            </r>
+            <r>
+              <c>deal with increment 22</c>
+            </r>
+            <r>
+              <c>cut 731</c>
+            </r>
+            <r>
+              <c>deal with increment 72</c>
+            </r>
+            <r>
+              <c>cut 412</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>deal with increment 22</c>
+            </r>
+            <r>
+              <c>cut -5253</c>
+            </r>
+            <r>
+              <c>deal with increment 73</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>cut -6041</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>cut 6605</c>
+            </r>
+            <r>
+              <c>deal with increment 6</c>
+            </r>
+            <r>
+              <c>cut 9897</c>
+            </r>
+            <r>
+              <c>deal with increment 59</c>
+            </r>
+            <r>
+              <c>cut -9855</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>cut -7284</c>
+            </r>
+            <r>
+              <c>deal with increment 7</c>
+            </r>
+            <r>
+              <c>cut 332</c>
+            </r>
+            <r>
+              <c>deal with increment 37</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>deal with increment 43</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>deal with increment 59</c>
+            </r>
+            <r>
+              <c>cut 1940</c>
+            </r>
+            <r>
+              <c>deal with increment 16</c>
+            </r>
+            <r>
+              <c>cut 3464</c>
+            </r>
+            <r>
+              <c>deal with increment 24</c>
+            </r>
+            <r>
+              <c>cut -7766</c>
+            </r>
+            <r>
+              <c>deal with increment 36</c>
+            </r>
+            <r>
+              <c>cut -156</c>
+            </r>
+            <r>
+              <c>deal with increment 18</c>
+            </r>
+            <r>
+              <c>cut 8207</c>
+            </r>
+            <r>
+              <c>deal with increment 33</c>
+            </r>
+            <r>
+              <c>cut -393</c>
+            </r>
+            <r>
+              <c>deal with increment 4</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>cut -4002</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>cut -8343</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>deal with increment 70</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>cut 995</c>
+            </r>
+            <r>
+              <c>deal with increment 22</c>
+            </r>
+            <r>
+              <c>cut 1267</c>
+            </r>
+            <r>
+              <c>deal with increment 47</c>
+            </r>
+            <r>
+              <c>cut -3161</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>deal with increment 34</c>
+            </r>
+            <r>
+              <c>cut -6221</c>
+            </r>
+            <r>
+              <c>deal with increment 26</c>
+            </r>
+            <r>
+              <c>cut 4956</c>
+            </r>
+            <r>
+              <c>deal with increment 57</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>cut -4983</c>
+            </r>
+            <r>
+              <c>deal with increment 36</c>
+            </r>
+            <r>
+              <c>cut -1101</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>deal with increment 2</c>
+            </r>
+            <r>
+              <c>cut 4225</c>
+            </r>
+            <r>
+              <c>deal with increment 35</c>
+            </r>
+            <r>
+              <c>cut -721</c>
+            </r>
+            <r>
+              <c>deal with increment 17</c>
+            </r>
+            <r>
+              <c>cut 5866</c>
+            </r>
+            <r>
+              <c>deal with increment 40</c>
+            </r>
+            <r>
+              <c>cut -531</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>deal with increment 63</c>
+            </r>
+            <r>
+              <c>cut -5839</c>
+            </r>
+            <r>
+              <c>deal with increment 30</c>
+            </r>
+            <r>
+              <c>cut 5812</c>
+            </r>
+            <r>
+              <c>deal with increment 35</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>deal with increment 46</c>
+            </r>
+            <r>
+              <c>cut -5638</c>
+            </r>
+            <r>
+              <c>deal with increment 60</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>deal with increment 33</c>
+            </r>
+            <r>
+              <c>cut -4690</c>
+            </r>
+            <r>
+              <c>deal with increment 7</c>
+            </r>
+            <r>
+              <c>cut 6264</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>cut 8949</c>
+            </r>
+            <r>
+              <c>deal into new stack</c>
+            </r>
+            <r>
+              <c>cut -4329</c>
+            </r>
+            <r>
+              <c>deal with increment 52</c>
+            </r>
+            <r>
+              <c>cut 3461</c>
+            </r>
+            <r>
+              <c>deal with increment 47</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="210" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field1</Field>
+          <RegExExpression value="(\d+|\-\d+)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName />
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_WString" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>Field1_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Parse:
+(\d+|\-\d+)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field1" selected="True" rename="Action" />
+            <SelectField field="RegExOut1" selected="True" rename="Number" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="198" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>Card</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <Expression_Init>0</Expression_Init>
+          <Expression_Cond>Card &lt;= 10006</Expression_Cond>
+          <Expression_Loop>Card + 1</Expression_Loop>
+          <RecordCount value="10007" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="318" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>0</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="414" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>ActionNumber</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="750" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Card] = 2019
+AND
+[Iteration] = 100</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Card</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-22 18:12:26</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2019</Operand>
+              <StartDate>2019-12-22 18:12:26</StartDate>
+              <EndDate>2019-12-22 18:12:26</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Card] = 2019
+AND
+[Iteration] = 100</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings>
+        <Position x="606" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Day22Macro (10)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Day22Macro.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="846" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\898450\AppData\Local\Temp\Engine_34396_39e4c14d109c48a48a393e54790e50c5_\Engine_16736_47681a506365413c994ee71ea1533f3c_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="702" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\898450\AppData\Local\Temp\Engine_34396_39e4c14d109c48a48a393e54790e50c5_\Engine_16736_6a131d81ddb441c1bc45f2fb4e4f9b7b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="102" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>cut -4</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="402" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="RecordID" action="CountDistinct" rename="NumberRecords" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="486" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\898450\AppData\Local\Temp\Engine_34396_39e4c14d109c48a48a393e54790e50c5_\Engine_16736_8ed3a44894924b349b7b2f5c21b751f4_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="22" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="25" Connection="Input5" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="25" Connection="IterationInput" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Solution" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Solution" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Day 22</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
