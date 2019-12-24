@@ -1,0 +1,1435 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="390" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_BioDiversity" selected="True" input="Target_" />
+                <SelectField field="Target_YX" selected="True" input="Target_" />
+                <SelectField field="Target_AboveYX" selected="True" input="Target_" />
+                <SelectField field="Target_BelowYX" selected="True" input="Target_" />
+                <SelectField field="Target_LeftYX" selected="True" input="Target_" />
+                <SelectField field="Target_RightYX" selected="True" input="Target_" />
+                <SelectField field="Source_YX" selected="True" rename="AdjacentCell_YX" input="Source_" />
+                <SelectField field="Source_BioDiversity" selected="False" rename="Source_BioDiversity" input="Source_" />
+                <SelectField field="Source_AboveYX" selected="False" rename="Source_AboveYX" input="Source_" />
+                <SelectField field="Source_BelowYX" selected="False" rename="Source_BelowYX" input="Source_" />
+                <SelectField field="Source_LeftYX" selected="False" rename="Source_LeftYX" input="Source_" />
+                <SelectField field="Source_RightYX" selected="False" rename="Source_RightYX" input="Source_" />
+                <SelectField field="Target_Cell" selected="True" input="Target_" />
+                <SelectField field="Source_Cell" selected="True" rename="AdjacentCell" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BioDiversity" source="TextInput:" type="Int32" />
+            <Field name="YX" size="5" source="TextInput:" type="String" />
+            <Field name="AboveYX" size="5" source="TextInput:" type="String" />
+            <Field name="BelowYX" size="5" source="TextInput:" type="String" />
+            <Field name="LeftYX" size="5" source="TextInput:" type="String" />
+            <Field name="RightYX" size="5" source="TextInput:" type="String" />
+            <Field name="AdjacentCell_YX" size="5" source="TextInput:" type="String" />
+            <Field name="Cell" size="1" source="TextInput:" type="String" />
+            <Field name="AdjacentCell" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="486" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[YX] != [AdjacentCell_YX]
+AND
+([AboveYX] = [AdjacentCell_YX]
+OR
+[BelowYX] = [AdjacentCell_YX]
+OR
+[LeftYX] = [AdjacentCell_YX]
+OR
+[RightYX] = [AdjacentCell_YX])</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-24 09:18:22</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2019-12-24 09:18:22</StartDate>
+              <EndDate>2019-12-24 09:18:22</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[YX] != [AdjacentCell_YX]
+AND
+([AboveYX] = [AdjacentCell_YX]
+OR
+[BelowYX] = [Adj...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="BioDiversity" source="TextInput:" type="Int32" />
+            <Field name="YX" size="5" source="TextInput:" type="String" />
+            <Field name="AboveYX" size="5" source="TextInput:" type="String" />
+            <Field name="BelowYX" size="5" source="TextInput:" type="String" />
+            <Field name="LeftYX" size="5" source="TextInput:" type="String" />
+            <Field name="RightYX" size="5" source="TextInput:" type="String" />
+            <Field name="AdjacentCell_YX" size="5" source="TextInput:" type="String" />
+            <Field name="Cell" size="1" source="TextInput:" type="String" />
+            <Field name="AdjacentCell" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="BioDiversity" source="TextInput:" type="Int32" />
+            <Field name="YX" size="5" source="TextInput:" type="String" />
+            <Field name="AboveYX" size="5" source="TextInput:" type="String" />
+            <Field name="BelowYX" size="5" source="TextInput:" type="String" />
+            <Field name="LeftYX" size="5" source="TextInput:" type="String" />
+            <Field name="RightYX" size="5" source="TextInput:" type="String" />
+            <Field name="AdjacentCell_YX" size="5" source="TextInput:" type="String" />
+            <Field name="Cell" size="1" source="TextInput:" type="String" />
+            <Field name="AdjacentCell" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="678" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="YX" action="GroupBy" rename="YX" />
+            <SummarizeField field="Cell" action="GroupBy" rename="Cell" />
+            <SummarizeField field="AdjacentCell" action="GroupBy" rename="AdjacentCell" />
+            <SummarizeField field="AdjacentCell_YX" action="CountDistinct" rename="CountDistinct_AdjacentCell_YX" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Summarize: GroupBy - Cell" type="String" />
+            <Field name="AdjacentCell" size="1" source="Summarize: GroupBy - AdjacentCell" type="String" />
+            <Field name="CountDistinct_AdjacentCell_YX" source="Summarize: CountDistinct - AdjacentCell_YX" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+            <Field field="Cell" order="Asc" />
+            <Field field="AdjacentCell" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="582" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Cell] = "."</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Cell</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-24 09:23:52</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>.</Operand>
+              <StartDate>2019-12-24 09:23:52</StartDate>
+              <EndDate>2019-12-24 09:23:52</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>EmptyCell</AnnotationText>
+          <DefaultAnnotationText>[Cell] = "."</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="BioDiversity" source="TextInput:" type="Int32" />
+            <Field name="YX" size="5" source="TextInput:" type="String" />
+            <Field name="AboveYX" size="5" source="TextInput:" type="String" />
+            <Field name="BelowYX" size="5" source="TextInput:" type="String" />
+            <Field name="LeftYX" size="5" source="TextInput:" type="String" />
+            <Field name="RightYX" size="5" source="TextInput:" type="String" />
+            <Field name="AdjacentCell_YX" size="5" source="TextInput:" type="String" />
+            <Field name="Cell" size="1" source="TextInput:" type="String" />
+            <Field name="AdjacentCell" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="BioDiversity" source="TextInput:" type="Int32" />
+            <Field name="YX" size="5" source="TextInput:" type="String" />
+            <Field name="AboveYX" size="5" source="TextInput:" type="String" />
+            <Field name="BelowYX" size="5" source="TextInput:" type="String" />
+            <Field name="LeftYX" size="5" source="TextInput:" type="String" />
+            <Field name="RightYX" size="5" source="TextInput:" type="String" />
+            <Field name="AdjacentCell_YX" size="5" source="TextInput:" type="String" />
+            <Field name="Cell" size="1" source="TextInput:" type="String" />
+            <Field name="AdjacentCell" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="774" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[AdjacentCell] = "#"
+AND
+([CountDistinct_AdjacentCell_YX] = 1 OR [CountDistinct_AdjacentCell_YX] = 2)</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>AdjacentCell</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-24 09:25:26</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>#</Operand>
+              <StartDate>2019-12-24 09:25:26</StartDate>
+              <EndDate>2019-12-24 09:25:26</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[AdjacentCell] = "#"
+AND
+([CountDistinct_AdjacentCell_YX] = 1 OR [CountDistinct_...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Summarize: GroupBy - Cell" type="String" />
+            <Field name="AdjacentCell" size="1" source="Summarize: GroupBy - AdjacentCell" type="String" />
+            <Field name="CountDistinct_AdjacentCell_YX" source="Summarize: CountDistinct - AdjacentCell_YX" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+            <Field field="Cell" order="Asc" />
+            <Field field="AdjacentCell" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Summarize: GroupBy - Cell" type="String" />
+            <Field name="AdjacentCell" size="1" source="Summarize: GroupBy - AdjacentCell" type="String" />
+            <Field name="CountDistinct_AdjacentCell_YX" source="Summarize: CountDistinct - AdjacentCell_YX" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+            <Field field="Cell" order="Asc" />
+            <Field field="AdjacentCell" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="870" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'#'" field="Cell" size="5" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Cell = '#'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: '#'" type="String" />
+            <Field name="AdjacentCell" size="1" source="Summarize: GroupBy - AdjacentCell" type="String" />
+            <Field name="CountDistinct_AdjacentCell_YX" source="Summarize: CountDistinct - AdjacentCell_YX" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="966" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="AdjacentCell" selected="False" />
+            <SelectField field="CountDistinct_AdjacentCell_YX" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: '#'" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="678" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="YX" action="GroupBy" rename="YX" />
+            <SummarizeField field="Cell" action="GroupBy" rename="Cell" />
+            <SummarizeField field="AdjacentCell" action="GroupBy" rename="AdjacentCell" />
+            <SummarizeField field="AdjacentCell_YX" action="CountDistinct" rename="CountDistinct_AdjacentCell_YX" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Summarize: GroupBy - Cell" type="String" />
+            <Field name="AdjacentCell" size="1" source="Summarize: GroupBy - AdjacentCell" type="String" />
+            <Field name="CountDistinct_AdjacentCell_YX" source="Summarize: CountDistinct - AdjacentCell_YX" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+            <Field field="Cell" order="Asc" />
+            <Field field="AdjacentCell" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="774" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[AdjacentCell] = "#"
+AND
+[CountDistinct_AdjacentCell_YX] = 1</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>AdjacentCell</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-24 09:25:26</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>#</Operand>
+              <StartDate>2019-12-24 09:25:26</StartDate>
+              <EndDate>2019-12-24 09:25:26</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[AdjacentCell] = "#"
+AND
+[CountDistinct_AdjacentCell_YX] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Summarize: GroupBy - Cell" type="String" />
+            <Field name="AdjacentCell" size="1" source="Summarize: GroupBy - AdjacentCell" type="String" />
+            <Field name="CountDistinct_AdjacentCell_YX" source="Summarize: CountDistinct - AdjacentCell_YX" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+            <Field field="Cell" order="Asc" />
+            <Field field="AdjacentCell" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Summarize: GroupBy - Cell" type="String" />
+            <Field name="AdjacentCell" size="1" source="Summarize: GroupBy - AdjacentCell" type="String" />
+            <Field name="CountDistinct_AdjacentCell_YX" source="Summarize: CountDistinct - AdjacentCell_YX" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+            <Field field="Cell" order="Asc" />
+            <Field field="AdjacentCell" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="870" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'#'" field="Cell" size="5" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Cell = '#'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: '#'" type="String" />
+            <Field name="AdjacentCell" size="1" source="Summarize: GroupBy - AdjacentCell" type="String" />
+            <Field name="CountDistinct_AdjacentCell_YX" source="Summarize: CountDistinct - AdjacentCell_YX" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="966" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="AdjacentCell" selected="False" />
+            <SelectField field="CountDistinct_AdjacentCell_YX" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: '#'" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="870" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'.'" field="Cell" size="5" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Cell = '.'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: '.'" type="String" />
+            <Field name="AdjacentCell" size="1" source="Summarize: GroupBy - AdjacentCell" type="String" />
+            <Field name="CountDistinct_AdjacentCell_YX" source="Summarize: CountDistinct - AdjacentCell_YX" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="966" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="AdjacentCell" selected="False" />
+            <SelectField field="CountDistinct_AdjacentCell_YX" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: '.'" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1266" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1158" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="YX" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: YX</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1062" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="870" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'.'" field="Cell" size="5" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Cell = '.'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: '.'" type="String" />
+            <Field name="AdjacentCell" size="1" source="Summarize: GroupBy - AdjacentCell" type="String" />
+            <Field name="CountDistinct_AdjacentCell_YX" source="Summarize: CountDistinct - AdjacentCell_YX" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="966" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="AdjacentCell" selected="False" />
+            <SelectField field="CountDistinct_AdjacentCell_YX" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: '.'" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1062" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1158" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="YX" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: YX</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1350" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="YX" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: YX</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="YX" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1458" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="YX" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="YX" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_YX" selected="False" input="Left_" />
+                <SelectField field="Left_Cell" selected="False" input="Left_" />
+                <SelectField field="Right_YX" selected="True" input="Right_" />
+                <SelectField field="Right_Cell" selected="True" input="Right_" />
+                <SelectField field="Left_BioDiversity" selected="True" input="Left_" />
+                <SelectField field="Left_AboveYX" selected="True" input="Left_" />
+                <SelectField field="Left_BelowYX" selected="True" input="Left_" />
+                <SelectField field="Left_LeftYX" selected="True" input="Left_" />
+                <SelectField field="Left_RightYX" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="YX" size="5" source="TextInput:" type="String" />
+            <Field name="BioDiversity" source="TextInput:" type="Int32" />
+            <Field name="AboveYX" size="5" source="TextInput:" type="String" />
+            <Field name="BelowYX" size="5" source="TextInput:" type="String" />
+            <Field name="LeftYX" size="5" source="TextInput:" type="String" />
+            <Field name="RightYX" size="5" source="TextInput:" type="String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="YX" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+            <Field name="BioDiversity" source="TextInput:" type="Int32" />
+            <Field name="AboveYX" size="5" source="TextInput:" type="String" />
+            <Field name="BelowYX" size="5" source="TextInput:" type="String" />
+            <Field name="LeftYX" size="5" source="TextInput:" type="String" />
+            <Field name="RightYX" size="5" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="YX" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="210" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input29</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="25" />
+              <Fields>
+                <Field name="YX" />
+                <Field name="Cell" />
+                <Field name="BioDiversity" />
+                <Field name="AboveYX" />
+                <Field name="BelowYX" />
+                <Field name="LeftYX" />
+                <Field name="RightYX" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>(1,1)</c>
+                  <c>.</c>
+                  <c>1</c>
+                  <c>(0,1)</c>
+                  <c>(2,1)</c>
+                  <c>(1,0)</c>
+                  <c>(1,2)</c>
+                </r>
+                <r>
+                  <c>(1,2)</c>
+                  <c>.</c>
+                  <c>2</c>
+                  <c>(0,2)</c>
+                  <c>(2,2)</c>
+                  <c>(1,1)</c>
+                  <c>(1,3)</c>
+                </r>
+                <r>
+                  <c>(1,3)</c>
+                  <c>.</c>
+                  <c>4</c>
+                  <c>(0,3)</c>
+                  <c>(2,3)</c>
+                  <c>(1,2)</c>
+                  <c>(1,4)</c>
+                </r>
+                <r>
+                  <c>(1,4)</c>
+                  <c>.</c>
+                  <c>8</c>
+                  <c>(0,4)</c>
+                  <c>(2,4)</c>
+                  <c>(1,3)</c>
+                  <c>(1,5)</c>
+                </r>
+                <r>
+                  <c>(1,5)</c>
+                  <c>#</c>
+                  <c>16</c>
+                  <c>(0,5)</c>
+                  <c>(2,5)</c>
+                  <c>(1,4)</c>
+                  <c>(1,6)</c>
+                </r>
+                <r>
+                  <c>(2,1)</c>
+                  <c>#</c>
+                  <c>32</c>
+                  <c>(1,1)</c>
+                  <c>(3,1)</c>
+                  <c>(2,0)</c>
+                  <c>(2,2)</c>
+                </r>
+                <r>
+                  <c>(2,2)</c>
+                  <c>.</c>
+                  <c>64</c>
+                  <c>(1,2)</c>
+                  <c>(3,2)</c>
+                  <c>(2,1)</c>
+                  <c>(2,3)</c>
+                </r>
+                <r>
+                  <c>(2,3)</c>
+                  <c>.</c>
+                  <c>128</c>
+                  <c>(1,3)</c>
+                  <c>(3,3)</c>
+                  <c>(2,2)</c>
+                  <c>(2,4)</c>
+                </r>
+                <r>
+                  <c>(2,4)</c>
+                  <c>#</c>
+                  <c>256</c>
+                  <c>(1,4)</c>
+                  <c>(3,4)</c>
+                  <c>(2,3)</c>
+                  <c>(2,5)</c>
+                </r>
+                <r>
+                  <c>(2,5)</c>
+                  <c>.</c>
+                  <c>512</c>
+                  <c>(1,5)</c>
+                  <c>(3,5)</c>
+                  <c>(2,4)</c>
+                  <c>(2,6)</c>
+                </r>
+                <r>
+                  <c>(3,1)</c>
+                  <c>#</c>
+                  <c>1024</c>
+                  <c>(2,1)</c>
+                  <c>(4,1)</c>
+                  <c>(3,0)</c>
+                  <c>(3,2)</c>
+                </r>
+                <r>
+                  <c>(3,2)</c>
+                  <c>.</c>
+                  <c>2048</c>
+                  <c>(2,2)</c>
+                  <c>(4,2)</c>
+                  <c>(3,1)</c>
+                  <c>(3,3)</c>
+                </r>
+                <r>
+                  <c>(3,3)</c>
+                  <c>.</c>
+                  <c>4096</c>
+                  <c>(2,3)</c>
+                  <c>(4,3)</c>
+                  <c>(3,2)</c>
+                  <c>(3,4)</c>
+                </r>
+                <r>
+                  <c>(3,4)</c>
+                  <c>#</c>
+                  <c>8192</c>
+                  <c>(2,4)</c>
+                  <c>(4,4)</c>
+                  <c>(3,3)</c>
+                  <c>(3,5)</c>
+                </r>
+                <r>
+                  <c>(3,5)</c>
+                  <c>#</c>
+                  <c>16384</c>
+                  <c>(2,5)</c>
+                  <c>(4,5)</c>
+                  <c>(3,4)</c>
+                  <c>(3,6)</c>
+                </r>
+                <r>
+                  <c>(4,1)</c>
+                  <c>.</c>
+                  <c>32768</c>
+                  <c>(3,1)</c>
+                  <c>(5,1)</c>
+                  <c>(4,0)</c>
+                  <c>(4,2)</c>
+                </r>
+                <r>
+                  <c>(4,2)</c>
+                  <c>.</c>
+                  <c>65536</c>
+                  <c>(3,2)</c>
+                  <c>(5,2)</c>
+                  <c>(4,1)</c>
+                  <c>(4,3)</c>
+                </r>
+                <r>
+                  <c>(4,3)</c>
+                  <c>#</c>
+                  <c>131072</c>
+                  <c>(3,3)</c>
+                  <c>(5,3)</c>
+                  <c>(4,2)</c>
+                  <c>(4,4)</c>
+                </r>
+                <r>
+                  <c>(4,4)</c>
+                  <c>.</c>
+                  <c>262144</c>
+                  <c>(3,4)</c>
+                  <c>(5,4)</c>
+                  <c>(4,3)</c>
+                  <c>(4,5)</c>
+                </r>
+                <r>
+                  <c>(4,5)</c>
+                  <c>.</c>
+                  <c>524288</c>
+                  <c>(3,5)</c>
+                  <c>(5,5)</c>
+                  <c>(4,4)</c>
+                  <c>(4,6)</c>
+                </r>
+                <r>
+                  <c>(5,1)</c>
+                  <c>#</c>
+                  <c>1048576</c>
+                  <c>(4,1)</c>
+                  <c>(6,1)</c>
+                  <c>(5,0)</c>
+                  <c>(5,2)</c>
+                </r>
+                <r>
+                  <c>(5,2)</c>
+                  <c>.</c>
+                  <c>2097152</c>
+                  <c>(4,2)</c>
+                  <c>(6,2)</c>
+                  <c>(5,1)</c>
+                  <c>(5,3)</c>
+                </r>
+                <r>
+                  <c>(5,3)</c>
+                  <c>.</c>
+                  <c>4194304</c>
+                  <c>(4,3)</c>
+                  <c>(6,3)</c>
+                  <c>(5,2)</c>
+                  <c>(5,4)</c>
+                </r>
+                <r>
+                  <c>(5,4)</c>
+                  <c>.</c>
+                  <c>8388608</c>
+                  <c>(4,4)</c>
+                  <c>(6,4)</c>
+                  <c>(5,3)</c>
+                  <c>(5,5)</c>
+                </r>
+                <r>
+                  <c>(5,5)</c>
+                  <c>.</c>
+                  <c>16777216</c>
+                  <c>(4,5)</c>
+                  <c>(6,5)</c>
+                  <c>(5,4)</c>
+                  <c>(5,6)</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Input (24)</Name>
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="TextInput:" type="String" />
+            <Field name="Cell" size="1" source="TextInput:" type="String" />
+            <Field name="BioDiversity" source="TextInput:" type="Int32" />
+            <Field name="AboveYX" size="5" source="TextInput:" type="String" />
+            <Field name="BelowYX" size="5" source="TextInput:" type="String" />
+            <Field name="LeftYX" size="5" source="TextInput:" type="String" />
+            <Field name="RightYX" size="5" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="210" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output30</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1590" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Engine.IterationNumber]+1" field="iteration" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[iteration = [Engine.IterationNumber]+1
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YX" size="5" source="Summarize: GroupBy - YX" type="String" />
+            <Field name="Cell" size="1" source="Formula: (Multiple Sources)" type="String" />
+            <Field name="BioDiversity" source="TextInput:" type="Int32" />
+            <Field name="AboveYX" size="5" source="TextInput:" type="String" />
+            <Field name="BelowYX" size="5" source="TextInput:" type="String" />
+            <Field name="LeftYX" size="5" source="TextInput:" type="String" />
+            <Field name="RightYX" size="5" source="TextInput:" type="String" />
+            <Field name="iteration" source="Formula: [Engine.IterationNumber]+1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1698" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output32</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="True" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="False" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="False" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="False" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="15" Connection="Unique" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="20" Connection="Unique" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Unique" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="1" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="1" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (32)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Day24Macro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (28)</Name>
+          <ToolId value="28" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (29)</Description>
+              <Name>Macro Input (29)</Name>
+              <ToolId value="29" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (30)</Description>
+              <Name>Macro Output (30)</Name>
+              <ToolId value="30" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (32)</Description>
+              <Name>Macro Output (32)</Name>
+              <ToolId value="32" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <IterativeMacro>
+        <Input>Input29</Input>
+        <Output>Output30</Output>
+        <IterationLimit value="100" />
+        <LimitBehavior>Warn</LimitBehavior>
+        <OutputMode>AutoByName</OutputMode>
+      </IterativeMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="29" Selected="True" />
+        <Tool ToolId="30" Selected="True" />
+        <Tool ToolId="32" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
